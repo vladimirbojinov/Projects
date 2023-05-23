@@ -1,15 +1,15 @@
 # Rock Paper Scissors
-This is a two players games where both players choose **rock, paper and scissors**.  
+This is a two players games where they choose one of these options **rock, paper and scissors**.  
 
 # About the project
 The project is writen entirely in C# and the game is **console based**.  
 The project aim to recreate the game but with only one player, the second player is the computer.  
-Then the player have to choose one of three optons to beat the bot.
+Then the player have to choose one of three optons to beat the computer.
 
 # How does the code work
-First the bot choses one of the three options.  
-Then a cycle is started which ends when the player type `stop`.  
-After that the player is bein asked to choose one of each option.
+First the computer choses one of the three options.  
+Then a cycle is started which ends when the player writes `stop`.  
+After that the player is bein asked to choose one of the options.
 The valid inputs of the player are:  
 
  `Rock, rock, r`  
