@@ -5,11 +5,11 @@ This is a two players games where they choose one of these options **rock, paper
 The project is writen entirely in C# and the game is **console based**.  
 The project aim to recreate the game but with only one player, the second player is the computer.  
 Then the player have to choose one of three optons to beat the computer.  
-**Important the game will continue until the player writes the command `stop`**
 
 # How does the code work
 First the computer choses one of the three options.  
-Then a cycle is started which ends when the player writes `stop`.  
+Then a cycle is started.  
+**If the player wants to stop the game he has to write the command `stop`.**  
 After that the player is being asked to choose one of the options.
 The valid inputs of the player are:  
 
