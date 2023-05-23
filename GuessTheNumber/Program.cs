@@ -11,20 +11,29 @@
             Console.Write("Guess The number from 1 - 100: ");
             int playerInput = int.Parse(Console.ReadLine());
 
+            //the code that checks if the player guessed the number
             while (playerInput != randomNumber)
             {
-                if (playerInput > randomNumber)
+                if (playerInput < 1 || playerInput > 100)
                 {
-                    Console.WriteLine("Too Hight");
+                    Console.WriteLine("Number is out of range");
                 }
                 else
                 {
-                    Console.WriteLine("Too Low");
+                    if (playerInput > randomNumber)
+                    {
+                        Console.WriteLine("Too Hight");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Too Low");
+                    }
+
+                    attempts++;
                 }
 
                 Console.Write("Guess The number from 1 - 100: ");
                 playerInput = int.Parse(Console.ReadLine());
-                attempts++;
             }
 
             if (playerInput == randomNumber)
