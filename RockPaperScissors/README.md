@@ -7,16 +7,16 @@ The project aim to recreate the game but with only one player, the second player
 Then the player have to choose one of three optons to beat the bot.
 
 # How does the code work
-First the bot choses one of the three options
-Then a cycle is started which ends when the player type `stop`
-After that the player is bein asked to choose one of each option
+First the bot choses one of the three options.  
+Then a cycle is started which ends when the player type `stop`.  
+After that the player is bein asked to choose one of each option.
 The valid inputs of the player are:  
 
  `Rock, rock, r`  
  `Paper, paper, p`  
  `Scissors, scissors, s` 
 
-Then a series of checks that are based on the tabble bellow makes shure who is the winner at the end
+Then a series of checks that are based on the tabble bellow makes shure who is the winner at the end.
    
 | Player | Computer | Results |
 | --- | --- | --- |
