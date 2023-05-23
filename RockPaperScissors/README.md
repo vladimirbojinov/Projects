@@ -1,17 +1,22 @@
 # Rock Paper Scissors
 This is a two players games where both players choose **rock, paper and scissors**.  
-In this case its a player against a computer and the player is trying to beat the computer.
 
 # About the project
 The project is writen entirely in C# and the game is **console based**.  
+The project aim to recreate the game but with only one player, the second player is the computer.  
+Then the player have to choose one of three optons to beat the bot.
 
-The valid inputs of the player are:
+# How does the code work
+First the bot choses one of the three options
+Then a cycle is started which ends when the player type `stop`
+After that the player is bein asked to choose one of each option
+The valid inputs of the player are:  
 
- - `Rock, rock, r`
- - `Paper, paper, p`
- - `Scissors, scissors, s`
+ `Rock, rock, r`  
+ `Paper, paper, p`  
+ `Scissors, scissors, s` 
 
-Based on the output on the player and computer this may be the results  
+Then a series of checks that are based on the tabble bellow makes shure who is the winner at the end
    
 | Player | Computer | Results |
 | --- | --- | --- |
@@ -25,12 +30,8 @@ Based on the output on the player and computer this may be the results
 | Paper | Paper | Draw |
 | Scissors | Scissors | Draw |
 
-# How does the code work
-- There is a series of checks that make shure that the output of the code is correct.  
-- To make the expirience with the program easyer so you dont wait the program to start again everytime you type your turn, there is a cycle which is waiting the player to type `stop` and then the program will end.
-
-  
+# Picture of the game
 ![image](https://github.com/vladimirbojinov/Projects/assets/133802678/fa6571c5-b1c7-4168-a65a-31706fdf63fd)
 
 
-[Link to the source code](Program.cs)
+| [Link to the source code](Program.cs)
