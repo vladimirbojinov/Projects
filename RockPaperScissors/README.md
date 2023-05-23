@@ -4,7 +4,7 @@ This is a two players games where they choose one of these options **rock, paper
 # About the project
 The project is writen entirely in C# and the game is **console based**.  
 The project aim to recreate the game but with only one player, the second player is the computer.  
-Then the player have to choose one of three optons to beat the computer.
+Then the player have to choose one of three optons to beat the computer.  
 **Important the game will continue until the player writes the command `stop`**
 
 # How does the code work
