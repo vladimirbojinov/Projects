@@ -16,7 +16,7 @@ The valid inputs of the player are:
  `Paper, paper, p`  
  `Scissors, scissors, s` 
 
-Then a series of checks that are based on the tabble bellow makes shure who is the winner at the end.
+Then a series of checks that are based on the table below makes shure who is the winner at the end.
    
 | Player | Computer | Results |
 | --- | --- | --- |
