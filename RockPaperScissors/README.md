@@ -9,7 +9,7 @@ Then the player have to choose one of three optons to beat the computer.
 # How does the code work
 First the computer choses one of the three options.  
 Then a cycle is started which ends when the player writes `stop`.  
-After that the player is bein asked to choose one of the options.
+After that the player is being asked to choose one of the options.
 The valid inputs of the player are:  
 
  `Rock, rock, r`  
