@@ -73,11 +73,8 @@ public class GameEngine()
 				while (Console.KeyAvailable) Console.ReadKey(true);
 			}
 
+			if (!IsKeyValid(currentKey)) currentKey = lastKey;
 			currentKey = PreventReverseDirection(lastKey, currentKey);
-			if (!IsKeyValid(currentKey))
-			{
-				currentKey = lastKey;
-			}
 
 			if (!MoveLogic(player, playerField, currentKey)) break;
 
