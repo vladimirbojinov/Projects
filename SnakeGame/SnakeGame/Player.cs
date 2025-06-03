@@ -2,8 +2,8 @@
 
 internal class Player
 {
-	private (int, int) DefaultHeadPos = (1, 3);
-	private (int, int) DefaultTailPos = (1, 1);
+	private static (int, int) DefaultHeadPos = (1, 3);
+	private static (int, int) DefaultTailPos = (1, 1);
 
 	public Player()
 	{
